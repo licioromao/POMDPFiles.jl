@@ -1,8 +1,8 @@
 using Printf, POMDPs
 using  POMDPXFiles 
 
-include("./reader.jl")
-include("./writer.jl")
+include("../src/reader.jl")
+include("../src/writer.jl")
 
 # NEED TO PARSE THESE FILES...
 

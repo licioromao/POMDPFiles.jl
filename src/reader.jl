@@ -152,6 +152,8 @@ function read_pomdp(filename::AbstractString)
 
     values_matrix = processing_reward_function(states.number_of_states, actions.number_of_actions, observations.number_of_observations, dic_states, dic_action, dic_obs, files_values)
 
+    # output should be a tring POMDP or Int POMDP object
+
 
     return discount[1], states, actions, observations, transition_prob, obs_prob, values_matrix, init_state_info
 end
